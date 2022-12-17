@@ -1,0 +1,33 @@
+0x0000  RAM
+0x3fff
+
+0x4000  I/O
+0x7fff 
+
+0x8000  ROM
+0xffff
+
+PTA:    0x4000
+PTB:    0x4001
+DDRA:   0x4002
+DDRB:   0x4003
+
+PTA Description
+- 0 -> D0 display
+- 1 -> D1 display
+- 2 -> D2 display
+- 3 -> D3 display
+- 4 -> D4 display
+- 5 -> D5 display
+- 6 -> D6 display
+- 7 -> D7 display
+
+PTB Description
+- 0 -> Led
+- 1 -> Led
+- 2 -> Led
+- 3 -> Led
+- 4 -> Button
+- 5 -> RS display
+- 6 -> RW display
+- 7 -> E display
